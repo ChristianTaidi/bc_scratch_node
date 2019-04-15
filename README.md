@@ -9,17 +9,17 @@ I´m building this by following a course, [Link to the course](https://www.udemy
 
 ## Steps
 
-1. Build the model objects
+1. Build the model objects :heavy_check_mark:
   
-  - Built the block class
-  - Built the blockchain class
-2. Build the behaviour of the chain
+  - Built the block class :heavy_check_mark:
+  - Built the blockchain class :heavy_check_mark:
+2. Build the behaviour of the chain :heavy_check_mark:
   
-  - Built the API (GET/POST)
-  - Built the mining function (POST request)
-  - Built the blockchain validation
-  - Built the blockchain replacement
-3. Build the p2p connectivity
+  - Built the API (GET/POST) :heavy_check_mark:
+  - Built the mining function (POST request) :heavy_check_mark:
+  - Built the blockchain validation :heavy_check_mark:
+  - Built the blockchain replacement :heavy_check_mark:
+3. Build the p2p connectivity :heavy_check_mark:
   
   - Built the P2P socket listener
   - Built the blockchain sync betweeen peers
