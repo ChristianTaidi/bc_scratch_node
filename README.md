@@ -4,10 +4,10 @@ This project is meant to be a learning experience on how to build a blockchain u
 
 I´m building this by following a course, [Link to the course](https://www.udemy.com/build-blockchain/learn/lecture/9314324?start=15#overview)
 
-## Tools
+## Tools 🛠️
 [VisualStudio Code](https://code.visualstudio.com/)
 
-## Steps
+## Steps ✒️
 
 1. Build the model objects :heavy_check_mark:
   
