@@ -7,7 +7,7 @@ I´m building this by following a course, [Link to the course](https://www.udemy
 ## Tools 🛠️
 [VisualStudio Code](https://code.visualstudio.com/)
 
-## Steps ✒️
+## Steps :memo:
 
 1. Build the model objects :heavy_check_mark:
   
