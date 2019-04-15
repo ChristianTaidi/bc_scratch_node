@@ -12,8 +12,8 @@ I´m building this by following a course, [Link to the course](https://www.udemy
 1. Build the model objects :heavy_check_mark:
   
   - Built the block class :heavy_check_mark:
-  - Built the blockchain class :heavy_check_mark:
-2. Build the behaviour of the chain :heavy_check_mark:
+  - Built the blockchain class :check_mark:
+2. Build the behaviour of the chain :check_mark:
   
   - Built the API (GET/POST) :heavy_check_mark:
   - Built the mining function (POST request) :heavy_check_mark:
