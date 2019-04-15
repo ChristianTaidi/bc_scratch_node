@@ -11,16 +11,16 @@ I´m building this by following a course, [Link to the course](https://www.udemy
 
 1. Build the model objects :heavy_check_mark:
   
-  - Built the block class :heavy_check_mark:
-  - Built the blockchain class :check_mark:
-2. Build the behaviour of the chain :check_mark:
+  - Built the block class :+1:
+  - Built the blockchain class :+1:
+2. Build the behaviour of the chain :heavy_check_mark:
   
-  - Built the API (GET/POST) :heavy_check_mark:
-  - Built the mining function (POST request) :heavy_check_mark:
-  - Built the blockchain validation :heavy_check_mark:
-  - Built the blockchain replacement :heavy_check_mark:
-3. Build the p2p connectivity :heavy_check_mark:
+  - Built the API (GET/POST) :+1:
+  - Built the mining function (POST request) :+1:
+  - Built the blockchain validation :+1:
+  - Built the blockchain replacement :+1:
+3. Build the p2p connectivity 
   
-  - Built the P2P socket listener
-  - Built the blockchain sync betweeen peers
+  - Built the P2P socket listener :+1:
+  - Built the blockchain sync betweeen peers :+1:
   
