@@ -1,6 +1,5 @@
-const SHA256 = require('crypto-js/sha256');
 const {DIFFICULTY, MINE_RATE} = require('../config');
-
+const ChainUtil = require('../chain-util');
 class Block{
 
     constructor(timestamp, lastHash, hash, data, nonce, difficulty){
@@ -19,11 +18,12 @@ class Block{
             Hash      : ${this.hash.substring(0,10)}
             Nonce     : ${this.nonce}
             Difficulty: ${this.difficulty}
-            Data      : ${this.data}`;
+            Data      : ${this.data}
+            `;
     }
 
     static genesis(){
-        return new this('Genesis time','-------','f1rs7-h45s',[], DIFFICULTY);
+        return new this('Genesis time','-------','f1rs7-h45h',[],0, DIFFICULTY);
     }
 
     static mineBlock(lastBlock, data){
@@ -44,7 +44,7 @@ class Block{
     }
     
     static hashFun(timestamp, lastHash, data, nonce, difficulty){
-        return SHA256(`${timestamp}${lastHash}${data}${nonce}${difficulty}`).toString();
+        return ChainUtil.hash(`${timestamp}${lastHash}${data}${nonce}${difficulty}`).toString();
     }
 
     static blockHash(block){
