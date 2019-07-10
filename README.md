@@ -52,6 +52,6 @@ I´m building this by following a course, [Link to the course](https://www.udemy
    - [x] Built the feature that updates all the peers when a transaction is mined
    - [x] Built the balance calculation for each wallet
    - [x] Built the balance calculation whenever a transaction is made
-   - []  Fix the balance calculation issue
+   - [ ]  Fix the balance calculation issue
    
 ## Need to fix an issue that makes the wallet balance calculation wrong, it resets the wallet currency whenever a transaction is mined and the balance updated, it might be an issue that involves the transaction selection when checking the most recent ones.
